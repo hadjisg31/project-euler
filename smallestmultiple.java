@@ -1,3 +1,5 @@
+package projectEuler;
+
 public class smallestmultiple {
 
 
@@ -33,10 +35,7 @@ public class smallestmultiple {
 				if((multCounter % counter)!=0) {
 					// if not 0, return FALSE
 					isDivisible=0;
-				}
-				
-				// no need to finish 1-20 if in between is FALSE.  Breaks the loop
-				if(isDivisible==0) {
+					// Break the loop to save time
 					break;
 				}
 				
