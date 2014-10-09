@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class primefactorsbig {
+public class Prob3_LargestPrimeFactor {
 
         public static void main(String[] args) {
 

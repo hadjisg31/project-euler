@@ -1,6 +1,6 @@
 package projectEuler;
 
-public class smallestmultiple {
+public class Prob5_SmallestMultiple {
 
 
 /* get the smallest number where divisible by 1-20, without remainder when divided

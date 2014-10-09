@@ -1,4 +1,4 @@
-public class palindrome {
+public class Prob4_PalindromeProduct {
 
 	/* this palindrome solution is only capable of solving max of integer, where r_palin = 9999
 	 *  
