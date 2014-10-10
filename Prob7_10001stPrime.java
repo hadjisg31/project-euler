@@ -1,4 +1,3 @@
-
 public class Prob7_10001stPrime {
 
 	/**
@@ -9,23 +8,24 @@ public class Prob7_10001stPrime {
 		int primeVal=0;
 		int primeCountLimit=10001; // adjust limit if necessary, try 6 for 13 prime number as result
 		int primeNumCount=1;
-		int counter=2;
+		int primeCounter=2;
 		
 		while (primeNumCount <= primeCountLimit) {
 			
-			if(isPrime(counter)) {
+			if(isPrime(primeCounter)) {
 				
-				// Assign current value of highest prime number
-				primeVal=counter;
 				// increase prime number counter till primeCountLimit.
 				++primeNumCount;
 			}
 			
-			++counter;
+			++primeCounter;
 
 		}
 		
-		System.out.println("10001st prime number is: "+primeVal);
+		// just remove the increment number from last operation
+		--primeCounter;
+		
+		System.out.println("10001st prime number is: " + primeCounter);
 			
 	}
 	
